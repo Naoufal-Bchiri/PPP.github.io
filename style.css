@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+	margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 4vh;
+}
+
+a {
+	text-decoration-line: none;
+    color: whitesmoke;
+    margin-left: .5vw;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: rgba(245, 245, 245, 0.9);
+}
+
+button {
+    width: 35vw;
+    height: 15vw;
+    background-color: whitesmoke;
+}
+
+button:hover {
+    translate: 0px 35vw;
+    background-color: whitesmoke;
+}
+
+main > img {
+    width: 100vw;
+}
