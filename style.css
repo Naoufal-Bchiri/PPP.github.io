@@ -13,11 +13,11 @@ header {
 header a {
 	text-decoration-line: none;
     color: black;
-    transform: skew(-10deg);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:hover {
-    color: rgb(89, 89, 89);
+    color: rgb(90, 90, 90);
 }
 
 h1 {
@@ -40,36 +40,26 @@ p {
     font-size: 1.5vw;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-ul, li {
+nav > ul {
     display: flex;
     list-style-type: none;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
+}
+
+.homeLink {
     margin-right: auto;
 }
 
-.prankButton {
-    width: 35vw;
-    height: 15vw;
-    background-color: whitesmoke;
-}
-
-.prankButton:hover {
-    translate: 0px 35vw;
-    background-color: whitesmoke;
+nav > ul > li {
+    transform: skew(-10deg);
 }
 
 .boxBox {
     display: flex;
     justify-content: center;
-    align-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-end;
     margin-top: auto;
 }
@@ -79,9 +69,23 @@ ul, li {
     width: 30vw;
     height: 25vh;
     background-color: whitesmoke;
-    align-self: flex-end;
     transform: skew(10deg);
-    justify-content: flex-end;
+    transition: 1s;
+}
+
+.bottomBox:hover {
+    height: 32;
+}
+
+.bottomBox > p {
+    margin-right: auto;
+    color: black;
+    transform: skew(-10deg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxBox > a {
+    text-decoration-line: none;
 }
 
 .circle {
