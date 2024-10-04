@@ -2,12 +2,17 @@ body {
     background-color: rgba(71, 71, 112);
     margin: 1vh 1.5vw;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 header {
     background-color: whitesmoke;
     height: 4vh;
+    width: 97vw;
     transform: skew(10deg);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header a {
@@ -192,7 +197,7 @@ header > nav > ul > li {
     font-size: 160%;
 }
 
-.guy span {
+.guy span, .trailer span, .episode span {
     font-size: 120%;
 }
 
